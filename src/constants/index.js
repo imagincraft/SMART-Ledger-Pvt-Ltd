@@ -128,21 +128,33 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  " We are not just an accounting company we are an innovative accounting company!";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Cost-effective: ",
+    text: "By outsourcing their financial tasks to us, our clients can save money on hiring and training in-house staff.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: " Expertise: ",
+    text: " Our team is made up of certified public accountants and other financial professionals with extensive experience in the industry. We are well-equipped to handle a wide range of accounting tasks and challenges."
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Scalability: ",
+    text: "We can scale our services to meet the changing needs of our clients as their businesses grow and evolve.",
+  },
+  {
+    id: "3",
+    title: "Technology: ",
+    text:"We use state-of-the-art technology and software to ensure the accuracy and efficiency of our work.",
+  },
+  {
+    id: "4",
+    title: " Just What you need: ",
+    text: "We will provide you the financial insightes that you need to step up in your game!",
   },
 ];
 
@@ -244,53 +256,53 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: " Bookkeeping & Accounting",
+    text: " We handle all aspects of bookkeeping for our clients, including recording transactions, reconciling accounts, and preparing financial statements. Our team is well-versed in a variety of accounting software and systems, and we can work with our clients to choose the best solution for their needs.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    /* iconUrl: benefitIcon1,
+    imageUrl: benefitImage2, */
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Financial Reports",
+    text: "Financial reports are important tools for stakeholders, including investors, creditors, and management, to understand a company's financial health and make informed decisions. We will do the financial reporting just as you need them. Understading the nature of the busiess we will push you to achive monthly goals and evaluate.", 
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    /* iconUrl: benefitIcon2,
+    imageUrl: benefitImage2, */
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Payroll Management",
+    text: " We handle payroll processing for our clients, including calculating and distributing employee paychecks, handling tax withholding and reporting, and managing employee benefits. We can also help our clients with compliance issues related to payroll, such as tax filing and reporting.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    /* iconUrl: benefitIcon3,
+    imageUrl: benefitImage2, */
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Accounts payable & receivable",
+    text: " Accounts payable and receivable: We handle the day-to-day management of our clients' accounts payable and receivable, including invoicing, billing, and tracking payments. We can also assist with collections and dispute resolution as needed.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    /* iconUrl: benefitIcon4,
+    imageUrl: benefitImage2, */
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Internal Audits",
+    text: "We can help you with financial internal audits to improve operations by evaluating and improving the effectiveness of the risk management, control, and governance processes. So that we will help you to improve internal controls, to enhance the overall efficiency and effectiveness of the operations.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+   /*  iconUrl: benefitIcon1,
+    imageUrl: benefitImage2, */
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Tax Preparation",
+    text: "We help our clients prepare and file their tax returns accurately and efficiently. We can assist with a range of tax-related tasks, including calculating taxes owed, preparing and filing tax returns.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    /* iconUrl: benefitIcon2,
+    imageUrl: benefitImage2, */
   },
 ];
 
