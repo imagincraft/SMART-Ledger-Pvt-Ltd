@@ -10,18 +10,19 @@
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
   --font-grotesk: "Space Grotesk", sans-serif;
-  /*color-scheme: dark;*/
+  color-scheme: dark;
 }
 
 * {
   scroll-behavior: smooth
 }
-
 @layer base {
   body {
-    @apply font-sans bg-n-8 text-n-1 text-base;
+    @apply font-sans bg-blue-200 text-n-1 text-base;
   }
+  
 }
+
 
 .rotate-45 {
   @apply rotate-[45deg]

@@ -3,7 +3,7 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2,
+  benefitImage2, benefitImage3,
   chromecast,
   disc02,
   discord,
@@ -255,7 +255,7 @@ export const benefits = [
         "for their needs.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage3,
   },
   {
     id: "1",
@@ -271,7 +271,7 @@ export const benefits = [
         "evaluat.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage3,
     light: true,
   },
   {
@@ -286,7 +286,7 @@ export const benefits = [
         "resolution as needed.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage3,
   },
   {
     id: "3",
@@ -301,7 +301,7 @@ export const benefits = [
         "such as tax filing and reporting.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage3,
     light: true,
   },
   {
@@ -314,7 +314,7 @@ export const benefits = [
         "and filing tax returns",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage3,
   },
   {
     id: "5",
@@ -328,7 +328,7 @@ export const benefits = [
         "efficiency and effectiveness of the operations.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage3,
   },
 ];
 
