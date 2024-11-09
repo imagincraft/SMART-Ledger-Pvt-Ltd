@@ -39,25 +39,25 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "About Us",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "What We Do",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Why Us",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Contact Us",
     url: "#roadmap",
   },
-  {
+/*  {
     id: "4",
     title: "New account",
     url: "#signup",
@@ -68,7 +68,7 @@ export const navigation = [
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
-  },
+  },*/
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -244,16 +244,31 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Bookkeeping & Accounting",
+    text: "We handle all aspects of bookkeeping for\n" +
+        "our clients, including recording\n" +
+        "transactions, reconciling accounts, and\n" +
+        "preparing financial statements. Our team is\n" +
+        "well-versed in a variety of accounting\n" +
+        "software and systems, and we can work\n" +
+        "with our clients to choose the best solution\n" +
+        "for their needs.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Financial Reporting",
+    text: "Financial reports are important tools for\n" +
+        "stakeholders, including investors, creditors,\n" +
+        "and management, to understand a\n" +
+        "company's financial health and make\n" +
+        "informed decisions. We will do the financial\n" +
+        "reporting just as you need them.\n" +
+        "Understading the nature of the busiess we\n" +
+        "will push you to achive monthly goals and\n" +
+        "evaluat.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +276,29 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Account Receivable Management",
+    text: "Accounts payable and receivable: We\n" +
+        "handle the day-to-day management of\n" +
+        "our clients' accounts payable and\n" +
+        "receivable, including invoicing, billing,\n" +
+        "and tracking payments. We can also\n" +
+        "assist with collections and dispute\n" +
+        "resolution as needed.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Payroll Management",
+    text: "We handle payroll processing for our\n" +
+        "clients, including calculating and\n" +
+        "distributing employee paychecks,\n" +
+        "handling tax withholding and reporting,\n" +
+        "and managing employee benefits. We\n" +
+        "can also help our clients with\n" +
+        "compliance issues related to payroll,\n" +
+        "such as tax filing and reporting.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +306,26 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Taxation",
+    text: "We help our clients prepare and file their\n" +
+        "tax returns accurately and efficiently. We\n" +
+        "can assist with a range of tax-related tasks,\n" +
+        "including calculating taxes owed, preparing\n" +
+        "and filing tax returns",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Internal Audits",
+    text: "We can help you with financial internal audits to\n" +
+        "improve operations by evaluating and\n" +
+        "improving the effectiveness of the risk\n" +
+        "management, control, and governance\n" +
+        "processes. So that we will help you to improve\n" +
+        "internal controls, to enhance the overall\n" +
+        "efficiency and effectiveness of the operations.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
